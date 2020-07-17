@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_weibo/pages/comment/index_page.dart';
+import 'package:flutter_weibo/pages/comment/login_page.dart';
+import 'package:flutter_weibo/pages/utils/user_utils.dart';
 
 class SplashPage extends StatefulWidget {
+  // 构造函数 - 不属于生命周期/第一个调用
   SplashPage({Key key}) : super(key: key);
 
   @override
@@ -9,13 +13,32 @@ class SplashPage extends StatefulWidget {
 
 class _SplashPageState extends State<SplashPage> {
   /*
-  什么方法 - 
-  什么作用 - 
-  怎么调用 - 
+  什么方法 - 初始化函数
+  什么作用 - 只会调用一次/做一些初始化工作
+  什么时候调用 - 当插入渲染树的时候调用
    */
+  // 调用顺序 - 构造函数 -> initState() -> build()
   @override
   void initState() {
     super.initState();
+    // 需要在这里判断“去登录页面” OR “去微博首页”
+    // 延迟方法
+    Future.delayed(Duration(seconds: 2), () {
+      // 判断是否登录
+      if (UserUtils.isLogin()) {
+        // 2>.去微博首页
+        Navigator.pop(context);
+        Navigator.push(context, MaterialPageRoute(builder: (buildContext) {
+          return IndexPage();
+        }));
+      } else {
+        // 1>.去登录页面
+        Navigator.pop(context);
+        Navigator.push(context, MaterialPageRoute(builder: (buildContext) {
+          return LoginPage();
+        }));
+      }
+    });
   }
 
   @override
