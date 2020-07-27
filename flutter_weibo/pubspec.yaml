@@ -48,6 +48,10 @@ flutter:
   assets:
     - assets/images/welcome_splash_logo.png
     - assets/images/welcome_splash_slogan.png
+    - assets/images/weibo_login_close.png
+    - assets/images/weibo_login_qq.png
+    - assets/images/weibo_login_weixin.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
