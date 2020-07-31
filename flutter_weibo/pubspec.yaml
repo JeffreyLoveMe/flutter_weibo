@@ -46,13 +46,25 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    # 启动页面
     - assets/images/welcome_splash_logo.png
     - assets/images/welcome_splash_slogan.png
+    # 登录页面
     - assets/images/weibo_login_close.png
     - assets/images/weibo_login_qq.png
     - assets/images/weibo_login_weixin.png
-
-
+    # # 底部分栏
+    # - assets/images/tabbar_home.png
+    # - assets/images/tabbar_home_highlighted.png
+    # - assets/images/tabbar_video.png
+    # - assets/images/tabbar_video_highlighted.png
+    # - assets/images/tabbar_discover.png
+    # - assets/images/tabbar_message_center.png
+    # - assets/images/tabbar_discover_highlighted.png
+    # - assets/images/tabbar_message_center_highlighted.png
+    # - assets/images/tabbar_profile.png
+    # - assets/images/tabbar_profile_highlighted.png
+   
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

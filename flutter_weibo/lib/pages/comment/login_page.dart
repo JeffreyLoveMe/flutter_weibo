@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'index_page.dart';
+
 class LoginPage extends StatefulWidget {
   LoginPage({Key key}) : super(key: key);
 
@@ -97,6 +99,10 @@ class _LoginPageState extends State<LoginPage> {
       child: RaisedButton(
         onPressed: () {
           // FIXME - 登录微博
+          Navigator.pop(context);
+          Navigator.push(context, MaterialPageRoute(builder: (buildContext) {
+            return IndexPage();
+          }));
         },
         // 背景颜色
         color: Color(0xffFF8200),
