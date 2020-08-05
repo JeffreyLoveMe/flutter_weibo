@@ -1,0 +1,26 @@
+{
+    "folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../notes/donew_index"
+		},
+		{
+			"path": "../../notes/donew_interview"
+		}
+	],
+    "settings": {
+        "workbench.colorCustomizations": {
+            "[Visual Studio Dark]": {
+                "activityBar.activeBackground": "#F8931D",
+                "activityBar.background": "#F8931D",
+                "activityBar.foreground": "#000000",
+                "titleBar.activeBackground": "#F8931D"
+            },
+            "activityBar.background": "#482313",
+            "titleBar.activeBackground": "#65311B",
+            "titleBar.activeForeground": "#FEFBFA"
+        }
+    }
+}

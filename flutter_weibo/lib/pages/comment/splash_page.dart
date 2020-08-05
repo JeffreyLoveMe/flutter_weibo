@@ -52,7 +52,8 @@ class _SplashPageState extends State<SplashPage> {
           // 第一个控件
           Row(
             children: <Widget>[
-              // ？？？
+              // Expanded只能用于Row/Column...
+              // Expanded表示充满 - Row使用Expanded不能设置width/Column使用Expanded不能设置height
               Expanded(
                 child: Container(
                   // 子widget的对齐方式
