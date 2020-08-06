@@ -1,22 +1,22 @@
 {
     "folders": [
 		{
-			"path": "."
+			"path": "flutter_weibo"
 		},
 		{
-			"path": "../../notes/donew_index"
+			"path": "../notes/donew_index"
 		},
 		{
-			"path": "../../notes/donew_interview"
+			"path": "../notes/donew_interview"
 		}
 	],
     "settings": {
         "workbench.colorCustomizations": {
-            "[Visual Studio Dark]": {
-                "activityBar.activeBackground": "#F8931D",
-                "activityBar.background": "#F8931D",
+            "[Monokai]": {
+                "activityBar.activeBackground": "#F0543E",
+                "activityBar.background": "#F0543E",
                 "activityBar.foreground": "#000000",
-                "titleBar.activeBackground": "#F8931D"
+                "titleBar.activeBackground": "#F0543E"
             },
             "activityBar.background": "#482313",
             "titleBar.activeBackground": "#65311B",
