@@ -1,15 +1,18 @@
 {
     "folders": [
-		{
-			"path": "flutter_weibo"
-		},
-		{
-			"path": "../notes/donew_index"
-		},
-		{
-			"path": "../notes/donew_interview"
-		}
-	],
+        {
+            "path": "flutter_weibo"
+        },
+        {
+            "path": "../notes/donew_index"
+        },
+        {
+            "path": "../notes/donew_interview"
+        },
+        {
+            "path": "../document"
+        }
+    ],
     "settings": {
         "workbench.colorCustomizations": {
             "[Monokai]": {
